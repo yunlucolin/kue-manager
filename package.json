@@ -1,0 +1,43 @@
+{
+  "name": "kue-manager",
+  "version": "1.0.0",
+  "bin": {
+    "kue-manager": "./bin/run.js"
+  },
+  "preferGlobal": true,
+  "description": "Deal with kue jobs in a batch",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin <liluyaocolin@hotmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ColinLeo/kue-manager.git"
+  },
+  "keywords": [
+    "kue",
+    "jobs",
+    "manager",
+    "batch"
+  ],
+  "bugs": {
+    "url": "https://github.com/ColinLeo/kue-manager/issues"
+  },
+  "homepage": "https://github.com/ColinLeo/kue-manager#README",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "nconf": "^0.10.0",
+    "shelljs": "^0.8.1",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
