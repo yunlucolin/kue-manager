@@ -1,4 +1,4 @@
 #! /usr/bin/env node
 
-const CmdBase = require('../src/cmdbase');
+const CmdBase = require('../lib/cmdbase');
 new CmdBase().exec();

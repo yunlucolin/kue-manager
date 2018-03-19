@@ -29,7 +29,6 @@
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
     "nconf": "^0.10.0",
-    "shelljs": "^0.8.1",
     "yargs": "^11.0.0"
   },
   "devDependencies": {
