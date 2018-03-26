@@ -27,3 +27,8 @@ kue-manager config REQUEST_INTERVAL 500
 ``` bash
 kue-manager delete --type ${job_type} --end 10
 ```
+
+## Todos
+
+- [ ] list, l, ls
+- [x] check, c
