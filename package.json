@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/ColinLeo/kue-manager#README",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "nconf": "^0.10.0",
     "yargs": "^11.0.0"
